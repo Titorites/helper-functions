@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
+
 def plot_linreg_package(X, y, lr):
     plt.plot(X, y, "o")
     xline = np.linspace(min(X), max(X), 100)
@@ -12,6 +13,7 @@ def plot_linreg_package(X, y, lr):
     y_fit = intercept + slope * xline
     plt.plot(xline, y_fit, "--")
     plt.show()
+
 
 def train_linreg_package():
     """Load data, split into train and test sets, and train a Linear Regression model."""
