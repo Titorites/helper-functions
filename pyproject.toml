@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helper_functions_package"
+version = "0.1.0"
+description = "A package for training and plotting linear regression."
+authors = [
+    { name = "Ken Guo", email = "hg2741@columbia.edu" }
+]
+
+dependencies = [
+    "matplotlib",
+    "mglearn",
+    "numpy",
+    "scikit-learn"
+]
