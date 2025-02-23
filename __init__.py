@@ -1,1 +1,1 @@
-from .helper_functions_package import train_linreg_package, plot_linreg_package
+from .helper_functions_package import plot_linreg_package, train_linreg_package
