@@ -1,30 +1,21 @@
 :tocdepth: -1
 
-|title|
-=======
-
-.. |title| replace:: ken.helper-functions package
+ken.helper-functions package
+============================
 
 .. automodule:: ken.helper_functions
     :members:
     :undoc-members:
     :show-inheritance:
 
-Subpackages
------------
-
-.. toctree::
-   ken.helper_functions.example_package
-
 Submodules
 ----------
 
-|module|
---------
+ken.helper_functions.helper_functions module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. |module| replace:: ken.helper_functions.example_submodule module
-
-.. automodule:: ken.helper_functions.example_submodule
+.. automodule:: ken.helper_functions.helper_functions
     :members:
     :undoc-members:
     :show-inheritance:
+
