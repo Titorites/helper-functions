@@ -16,7 +16,8 @@ def plot_linreg_package(X, y, lr):
 
 
 def train_linreg_package():
-    """Load data, split into train and test sets, and train a Linear Regression model."""
+    """Load data, split into train and test sets, and train a Linear Regression
+    model."""
     X, y = mglearn.datasets.make_wave(n_samples=60)
     X_train, X_test, y_train, y_test = train_test_split(X, y)
     lr = LinearRegression().fit(X_train, y_train)
